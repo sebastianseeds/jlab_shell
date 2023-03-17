@@ -1,0 +1,8 @@
+# Don't override a user's rootlogon.C. See if this works instead.
+Rint.Logon        /work/halla/sbs/seeds/SBS_OFFLINE/install/etc/rootlogon.C
+
+Unix.*.Root.DynamicPath:   .:lib64:$(ROOTSYS)/lib
+Unix.*.Root.MacroPath:     .:/work/halla/sbs/seeds/SBS-replay/replay:/work/halla/sbs/seeds/SBS-replay/scripts:/work/halla/sbs/seeds/SBS-replay/onlineGUIconfig: /work/halla/sbs/seeds/SBS-replay/onlineGUIconfig/scripts:$(ROOTSYS)/macros
+
+ACLiC.IncludePaths:       -Iinclude
+

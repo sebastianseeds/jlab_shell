@@ -1,0 +1,26 @@
+==== Wed Jan 25 11:54:20 2023 Started analysis, run 1
+Reading from 
+End of file.
+==== Wed Jan 25 11:55:23 2023 Summary for run 1
+Counter summary:
+15251  events read
+15251  events decoded
+15207  physics events
+   44  other event types
+15207  physics events analyzed
+15251  events accepted
+
+Timing summary:
+Init             : Real Time =   4.43 seconds Cpu Time =   1.99 seconds
+Begin            : Real Time =   0.03 seconds Cpu Time =   0.01 seconds
+RawDecode        : Real Time =   5.95 seconds Cpu Time =   5.44 seconds
+Decode           : Real Time =   2.07 seconds Cpu Time =   2.24 seconds
+CoarseTracking   : Real Time =  33.98 seconds Cpu Time =  34.05 seconds
+CoarseReconstruct: Real Time =   0.47 seconds Cpu Time =   0.50 seconds
+Tracking         : Real Time =   0.13 seconds Cpu Time =   0.16 seconds
+Reconstruct      : Real Time =   0.13 seconds Cpu Time =   0.21 seconds
+Physics          : Real Time =   0.01 seconds Cpu Time =   0.02 seconds
+End              : Real Time =   0.13 seconds Cpu Time =   0.10 seconds
+Output           : Real Time =  15.77 seconds Cpu Time =  14.58 seconds
+Cuts             : Real Time =   0.06 seconds Cpu Time =   0.05 seconds
+Total            : Real Time =  63.37 seconds Cpu Time =  59.49 seconds
